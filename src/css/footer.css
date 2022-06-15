@@ -1,0 +1,38 @@
+.footer {
+  position: relative;
+  bottom: 0;
+  background-color: rgb(32, 33, 36);
+  height: 250px;
+  width: 100%;
+}
+
+.footer_logo {
+  margin-top: 75px;
+  display: inline-block;
+  width: 105px;
+  height: 30px;
+  color: #fff;
+  background-color: rgb(249, 37, 37);
+  line-height: 30px;
+  text-align: center;
+}
+
+.footer .w ul li {
+  color: #fff;
+  font-weight: 800;
+  margin: 20px auto;
+}
+
+.footer .w ul {
+  float: left;
+  margin-top: 55px;
+  margin-left: 150px;
+}
+
+.footer_border_bottom {
+  border-bottom: 1px solid #fff;
+}
+
+.mark ul li a:hover {
+  border-bottom: 1px solid #fff;
+}

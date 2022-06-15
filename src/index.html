@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- 引入初始化样式文件 -->
+  <link rel="stylesheet" href="./css/base.css">
+  <!-- 引入公共样式文件 -->
+  <link rel="stylesheet" href="./css/common.css">
+  <!-- 引入header -->
+  <link rel="stylesheet" href="./css/header.css">
+  <!-- 引入nav -->
+  <link rel="stylesheet" href="./css/nav.css">
+  <!-- 引入swiper -->
+  <link rel="stylesheet" href="./css/swiper.css">
+  <!-- 引入r_form -->
+  <link rel="stylesheet" href="./css/r_form.css">
+  <!-- 引入footer -->
+  <link rel="stylesheet" href="./css/footer.css">
+  <!-- 引入echarts_data -->
+  <link rel="stylesheet" href="./css/echarts_data.css">
+
+
+
+</head>
+
+<body>
+
+  <!-- header模块 -->
+  <div class="header">
+    <div class="w">
+      <div class="fl">
+        <span>
+          <a href="#" class="logo">LOGO</a>
+        </span>
+      </div>
+      <div class="fr">
+        <a href="#">
+          <i class="sitting"></i>
+        </a>
+        <a href="#">
+          <i class="message"></i>
+        </a>
+        <span>
+          <a href="#" class="log_out">Log Out</a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- nav模块 -->
+  <div class="nav">
+    <div class="w">
+      <div class="fl">
+        <a href="#" class="title_style">
+          <span class="title_words"> Audience Overview</span>
+          <span class="second_words">roseville,CA</span>
+        </a>
+      </div>
+      <div class="fr slide_set">
+        <span class="border_bottom"></span>
+        <ul class="slide_module">
+          <li><a href="#">DASHBOARD</a></li>
+          <li><a href="#">PROJECTS</a></li>
+          <li><a href="#">CALENDAR</a></li>
+          <li><a href="#">MAILBOX</a></li>
+          <li><a href="#">SETTINGS</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="w">
+
+    <!-- swiper模块 -->
+    <div class="swiper fl">
+      <!-- 左右按钮,使用定位定过去 -->
+      <a href="javascript:;" class="arrow_l">&lt;</a>
+      <a href="javascript:;" class="arrow_r">&gt;</a>
+      <!-- 小圆圈，动态的根据图片数量，使用JS生成小圆圈 -->
+      <ol class="circle">
+        <!-- <li class="current"></li>
+        <li></li> -->
+      </ol>
+      <!-- 滚动区域 -->
+      <ul>
+        <li>
+          <a href="#">
+            <img src="https://via.placeholder.com/540X270C/O https://placeholder.com/#How_To_Use_Our_Placeholders "
+              alt="">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="https://via.placeholder.com/540X270/FF0000/FFFFFF?Text=Down.comC/O https://placeholder.com/#How_To_Use_Our_Placeholders "
+              alt="">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="https://via.placeholder.com/540X270/0000FF/808080 ?Text=Digital.comC/O https://placeholder.com/#How_To_Use_Our_Placeholders "
+              alt="">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="https://via.placeholder.com/540X270/FFFF00/000000?Text=WebsiteBuilders.comC/O https://placeholder.com/#How_To_Use_Our_Placeholders "
+              alt="">
+          </a>
+        </li>
+        <li><a href="#">
+            <img
+              src="https://via.placeholder.com/540X270/000000/FFFFFF/?text=IPaddress.netC/O https://placeholder.com/#How_To_Use_Our_Placeholders "
+              alt="">
+          </a>
+        </li>
+      </ul>
+      <!-- 右侧的遮挡条,遮挡下一张图片的边缘 -->
+      <!-- <span class="cover"></span> -->
+    </div>
+
+    <!-- 右侧表单模块 -->
+    <div class="r_form fr">
+      <div class="form_banner">
+        <span class="title_form">Support Requests</span>
+        <span>
+          <a href="#">
+            <input type="submit" value="View&nbsp;&nbsp;All">
+          </a>
+        </span>
+      </div>
+      <div class="form_inner"></div>
+
+      <div class="form_bottom">
+        <table>
+          <tr>
+            <td>TIME</td>
+            <td>USER NAME</td>
+            <td> STATUS </td>
+          </tr>
+          <tr>
+            <td>9:45pm</td>
+            <td>info@design.com</td>
+            <td>
+              <a href="#">
+                <input type="submit" value="Solved">
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>9:45pm</td>
+            <td>info@design.com</td>
+            <td>
+              <a href="#">
+                <input type="submit" value="Solved">
+              </a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- 数据可视化 -->
+    <div class="w data_box fl">
+      <div class="first_data_box"></div>
+      <div class="fl w sec_data_box">
+        <div class="l_data_box"></div>
+        <div class="r_data_box fr"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer模块 -->
+  <div class="footer fl">
+    <div class="w">
+      <a href="#">
+        <span class="footer_logo">LOGO</span>
+      </a>
+      <div class="fr mark">
+        <ul>
+          <li>
+            <a href="#">NEWS</a>
+          </li>
+          <li>
+            <a href="#">CHANNELS</a>
+          </li>
+          <li>
+            <a href="#">OVERVIEW</a>
+          </li>
+          <li>
+            <a href="#">TIMELINE</a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href="#">SPORT</a>
+          </li>
+          <li>
+            <a href="#">CULTURE</a>
+          </li>
+          <li>
+            <a href="#">NATURE</a>
+          </li>
+          <li>
+            <a href="#">MUSIC</a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href="#">WEATHER</a>
+          </li>
+          <li>
+            <a href="#">AUTOS</a>
+          </li>
+          <li>
+            <a href="#">LOCAL</a>
+          </li>
+          <li>
+            <a href="#">SHOP</a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href="#">FUTURE</a>
+          </li>
+          <li>
+            <a href="#">FOOD</a>
+          </li>
+          <li>
+            <a href="#">EARTH</a>
+          </li>
+          <li>
+            <a href="#">TV</a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href="#">TRAVEL</a>
+          </li>
+          <li>
+            <a href="#">RADIO</a>
+          </li>
+        </ul>
+      </div>
+
+
+    </div>
+  </div>
+
+</body>
+
+<script src="./js/animate.js"></script>
+<script src="./js/nav.js"></script>
+<script src="./js/swiper.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.3.2/echarts.min.js"></script>
+<script src="./js/first_data.js"></script>
+<script src="./js/l_data_box.js"></script>
+<script src="./js/r_data_box.js"></script>
+
+</html>

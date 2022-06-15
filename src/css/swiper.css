@@ -1,0 +1,87 @@
+.swiper {
+  display: inline-block;
+  position: relative;
+  width: 540px;
+  height: 270px;
+  /* background-color: rgb(255, 255, 255); */
+  overflow: hidden;
+  left: -280px;
+  top: 0px;
+  /* float: left; */
+  border: 10px solid rgb(255, 255, 255);
+}
+
+.swiper ul {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  /* 留足够的宽度,否则无缝滚动第一张图片会展不开导致加载不出来 */
+  /* width: 600%; */
+  width: 1000%;
+}
+
+.swiper ul li {
+  float: left;
+}
+
+/* 遮挡多余图片的遮罩层 */
+/* .cover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  width: 10px;
+  height: 290px;
+  background-color: rgb(255, 255, 255);
+  z-index: 9999;
+} */
+
+/* 左右箭头 */
+.arrow_l,
+.arrow_r {
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 30px;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, .3);
+  font-size: 14px;
+  text-align: center;
+  line-height: 30px;
+  top: 130px;
+  z-index: 9999;
+}
+
+.arrow_l {
+  left: 10px;
+}
+
+.arrow_r {
+  right: 10px;
+}
+
+/* 小圆圈 */
+/* 小圆圈的位置 */
+.circle {
+  position: absolute;
+  bottom: 25px;
+  left: 45px;
+}
+
+.circle li {
+  position: relative;
+  display: inline-block;
+  /* background-color: #fff; */
+  width: 10px;
+  height: 10px;
+  z-index: 9999;
+  margin: 0 3px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  /*鼠标经过显示小手*/
+  cursor: pointer;
+}
+
+.current {
+  background-color: #fff;
+}

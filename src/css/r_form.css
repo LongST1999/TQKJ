@@ -1,0 +1,81 @@
+.r_form {
+  position: relative;
+  top: -270px;
+  width: 560px;
+  height: 110px;
+  line-height: 110px;
+  background-color: #fff;
+}
+
+.form_banner {
+  width: 560px;
+  height: 110px;
+  display: inline-block;
+}
+
+.title_form {
+  position: absolute;
+  left: 50px;
+  font-size: 20px;
+}
+
+.form_banner input {
+  position: absolute;
+  /* float: right; */
+  background-color: rgb(255, 255, 255);
+  color: rgb(164, 166, 167);
+  top: 36px;
+  right: 50px;
+  width: 91px;
+  height: 36px;
+  border: 3px solid rgb(233, 233, 234);
+  /*鼠标经过显示小手*/
+  cursor: pointer;
+}
+
+
+
+.form_bottom {
+  position: absolute;
+  top: 100px;
+  width: 560px;
+  height: 170px;
+  line-height: 53px;
+  background-color: #fff;
+  border-top: 2px solid rgb(245, 248, 249);
+}
+
+.form_bottom table {
+  position: absolute;
+  left: 180px;
+}
+
+.form_bottom tr {
+  width: 560px;
+}
+
+.form_bottom tr:nth-child(1) {
+  font-weight: 800;
+}
+
+.form_bottom tr td:nth-child(1) {
+  transform: translateX(-132px);
+}
+
+.form_bottom tr td:nth-child(2) {
+  transform: translateX(-44px);
+}
+
+.form_bottom tr td:nth-child(3) {
+  transform: translateX(115px);
+  float: right;
+}
+
+.form_bottom td input {
+  width: 65px;
+  height: 30px;
+  background-color: rgb(93, 208, 84);
+  color: #fff;
+  font-weight: 800;
+  cursor: pointer;
+}
